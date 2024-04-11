@@ -14,11 +14,11 @@ export const printHola = (parent) => {
     <div class="label-hello"></div>
     <h2 class='hello'>Hello!</h2>
     </div>
-    <p class='textopresentacion'>I am Vanesa Madan, a biologist with a passinon for scientific illustration. In my scientific joumey I have had the pleasure to conduct challenging research projects in the cell and mollecular biology fields in three different countries. An important part in my life as a scientist is to communicate not only orally but also visually my new findings. I  have always enjoyed getting involved in the process of creating schematics and ilustrations that give support and clarify a complex message in a presentation. I find very gratifying when the message reaches your audience.</p>
+    <p class='textopresentacion'>I am Vanesa Madan, a biologist with a passion for scientific illustration. In my scientific journey I have had the pleasure to conduct challenging research projects in the cell and mollecular biology fields in three different countries. An important part in my life as a scientist is to communicate not only orally but also visually my new findings. I  have always enjoyed getting involved in the process of creating schematics and illustrations that give support and clarify a complex message in a presentation. I find very gratifying when the message reaches your audience.</p>
 
 
 
-    <p class='textopresentacion'>In this portfolio, I have collected a series of <em>journal figures</em> (including schematics and models to explain virology concepts) that were published during my PhD and postdoctoral work in peer-reviewed journals. You can also find a <em>scientific poster</em> on "molecular motors" that I created and presented in a virtual Cell Biology conference. Finally, I show a recent project that includes a web Desing mockup and logo for a ficticious biopharmaceutical company.</p>
+    <p class='textopresentacion'>In this portfolio, I have collected a series of <em>journal figures</em> (including schematics and models to explain virology concepts) that were published during my PhD and postdoctoral work in peer-reviewed journals. You can also find a <em>scientific poster</em> on "molecular motors" that I created and presented in a virtual Cell Biology conference. Finally, I show a recent project that includes a web Design mockup and logo for a ficticious biopharmaceutical company.</p>
 
 
 

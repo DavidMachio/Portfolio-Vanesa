@@ -28,6 +28,7 @@ export const printConection = (parent) => {
         <p>Created by Vanesa Madan.</p>
         <p>Review written by Vanesa Madan, Gualtiero Alvisi and Ralf Bartenschlager.</p>
         </div>
+        <div class='separadorfotos'></div>
 
         <img class='imgconection' src='/Conection2.png' alt=''>
 

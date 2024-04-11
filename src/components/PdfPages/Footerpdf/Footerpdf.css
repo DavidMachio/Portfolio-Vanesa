@@ -43,8 +43,19 @@ background: linear-gradient(122deg, rgba(228, 124, 239, 0) 19%, rgba(125, 22, 13
   font-weight: 400;
   font-size: 9px;
 }
+.botones {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
 
 .descargar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: black;
   border: 1px solid black;
   padding: 10px;
@@ -52,6 +63,7 @@ background: linear-gradient(122deg, rgba(228, 124, 239, 0) 19%, rgba(125, 22, 13
   box-shadow: 0 0 10px rgba(81, 81, 81, 0.551);
   background-color: #7FD8C6;
   transition: all .2s;
+  width: 200px;
 }
 .descargar:hover {
   scale: 103%;
@@ -61,7 +73,7 @@ background: linear-gradient(122deg, rgba(228, 124, 239, 0) 19%, rgba(125, 22, 13
 
     .contenedorFooter {
         flex-direction: column;
-        padding: 2px;
+        padding: 0;
         gap: var(--gap-xl);
         height: auto;
     }

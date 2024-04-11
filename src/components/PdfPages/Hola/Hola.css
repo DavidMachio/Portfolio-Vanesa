@@ -60,10 +60,9 @@
     justify-content: space-between;
 
 }
-.laboratorioDiv > h2 {
-    font-size: var(--font-size-s);
-    color: gray;
-    font-weight: 300;
+.descripcion {
+    font-size: 10px;
+    font-weight: 400;
 }
 
 .severoochoa, .ukry{

@@ -8,7 +8,11 @@ export const printFooterPdf = (parent) => {
     footer.className = 'footerpdf'
 
     footer.innerHTML = `
-    <a class='descargar' href="Portfolio_Vanesa.pdf" download="Portfolio_Vanesa.pdf">Download CV</a>
+    <div class="botones">
+    <a class='descargar' href="CV_Vanesa_Madan.pdf" download="CV_Vanesa_Madan.pdf">Download CV</a>
+    <a class='descargar' href="https://drive.google.com/file/d/1iQ5e1uki2Fgtym7DqTrhFVn0qELEcHnu/view?usp=drivesdk" target="_blank">Download Portfolio</a>
+    </div>
+
     <div class='contenedorFooter'>
     <div>
     <img class='imgcientifica' src='/cientifica.png' alt=''>
