@@ -1,0 +1,76 @@
+.general{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: var(--gap-xxl);
+    min-height: auto;
+    margin-bottom: 100px;
+}
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xxl);
+    width: 100%;
+    padding: 40px 0;
+
+}
+.datos {
+    
+    height: auto;
+    width: 45%;
+    background-color: var(--vm-background-div);
+    padding: var(--padding-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-s);
+}
+.nombre, .portfolio, .fecha{
+    color: var(--vm-secondary);
+    font-weight: 100;
+}
+.nombre {
+    font-weight: normal;
+    font-size: 25px;
+}
+.profesion {
+    color: #86B48D;
+    font-size: 14px;
+    font-weight: normal;
+}
+.portfolioDiv {
+    display: flex;
+    align-items: last baseline;
+    gap:var(--gap-xl);
+}
+.portfolio {
+    font-size: 45px;
+}
+.fecha {
+    font-weight: normal;
+
+    font-size: 25px;
+}
+.fotoPortada {
+    width: 45%;
+}
+@media   (max-width:700px) {
+    .general{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .portada{
+        flex-direction: column;
+        align-items: center;
+        gap: var(--gap-xl);
+        min-height: auto;
+    }
+    .datos{
+        width: 100%;
+        align-items: center;
+    }
+    .fotoPortada{
+        width: 80%;
+    }
+}

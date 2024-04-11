@@ -1,0 +1,20 @@
+
+
+.main-pdf {
+     /* border: 1px solid rgb(82, 82, 82); */ 
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     box-shadow: 0 0 30px rgba(105, 105, 105, 0.42);
+     border-radius: 5px;
+     
+    min-height: calc(100svh - 50px);
+    max-width: 1400px;
+}
+
+@media   (max-width:700px) {
+
+   .main-pdf{
+    width: 100%;
+   }
+}
