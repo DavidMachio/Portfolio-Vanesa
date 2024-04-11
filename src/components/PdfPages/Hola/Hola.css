@@ -71,6 +71,12 @@
 .heidelberg {
     height: 80px;
 }
+.lugar {
+    font-size: 10px;
+    font-weight: 400;
+    
+
+}
 
 @media (max-width: 900px){
     .seccionHola{

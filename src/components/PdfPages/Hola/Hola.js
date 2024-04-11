@@ -41,6 +41,7 @@ export const printHola = (parent) => {
         imagen.src = laboratorio.img;
         imagen.alt = laboratorio.imgAlt
         imagen.className = laboratorio.clase
+        lugar.className = 'lugar'
         lugar.textContent = laboratorio.lugar
 
         laboratorioDiv.append(imagen, lugar)
